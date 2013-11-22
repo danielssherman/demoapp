@@ -1,6 +1,7 @@
 @import "bootstrap";
  
 /* mixins, variables, etc. */
+/* changes i'm making here aren't doing anything in preview port 3000....*/
  
 $grayMediumLight: #eaeaea;
  
@@ -80,14 +81,14 @@ p {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $grayMediumLight;
+  border-top: 10px solid $grayMediumLight;
   color: $grayLight;
   a {
     color: $gray;
     &:hover { 
-      color: $grayDarker;
-    }
-  }  
+      color: $white;
+            }
+    }  
   small { 
     float: left; 
   }
